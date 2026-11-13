@@ -1,0 +1,7 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+.env
+trivy_*.deb
+"@ | Set-Content .gitignore
